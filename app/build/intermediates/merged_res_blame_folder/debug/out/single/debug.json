@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable_instagram_messages_icon.png.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\instagram_messages_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable_dbc7636bb173ffb38acb503d8ee44995.jpg.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\dbc7636bb173ffb38acb503d8ee44995.jpg"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable_instagram_moreoptions_icon.png.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\instagram_moreoptions_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\layout_activity_calculator.xml.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\layout\\activity_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable_instagram_comment_icon.png.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\instagram_comment_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable_e5f0769792ad25fa4500dd9a4c95b320.jpg.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\e5f0769792ad25fa4500dd9a4c95b320.jpg"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\layout_activity_button.xml.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\layout\\activity_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\layout_layout_activity.xml.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\layout\\layout_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable_instagram_like_icon.png.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\instagram_like_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable_fa07dd62b72e23226251163fdb4b6624.jpg.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\fa07dd62b72e23226251163fdb4b6624.jpg"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable_instagramtextlogo.png.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\instagramtextlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable__e832a322f2ae462c0983281f48f14a8.jpg.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\_e832a322f2ae462c0983281f48f14a8.jpg"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable_f434198617b505887d949e52b0995f61.jpg.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\f434198617b505887d949e52b0995f61.jpg"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable_the_weeknd_tour1.jpg.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\the_weeknd_tour1.jpg"
+    },
+    {
+        "merged": "com.example.instagramactivity.app-merged_res-32:/layout_activity_connect3.xml.flat",
+        "source": "com.example.instagramactivity.app-main-34:/layout/activity_connect3.xml"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable_instagram_bookmark_icon.png.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\instagram_bookmark_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable__adb111ae3c50a92d7ab06d79c538d45.jpg.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\_adb111ae3c50a92d7ab06d79c538d45.jpg"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable_anitamaxwynn.png.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\anitamaxwynn.png"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable__a2798355316e7e80af84040686c3344.jpg.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\_a2798355316e7e80af84040686c3344.jpg"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\drawable_instagram_share_icon.png.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\drawable\\instagram_share_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\GILES\\.gradle\\daemon\\8.2\\com.example.instagramactivity.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    }
+]

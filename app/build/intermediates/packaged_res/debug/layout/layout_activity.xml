@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/appHeader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/mainScrollView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/instagram_textlogo"
+            android:layout_width="125dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/instagramtextlogo" />
+
+        <ImageView
+            android:id="@+id/instagram_messagesBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/instagram_messages_icon" />
+
+        <ImageView
+            android:id="@+id/instagram_notificationsBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toStartOf="@id/instagram_messagesBtn"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/instagram_like_icon" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:id="@+id/mainScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appHeader">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <HorizontalScrollView
+                android:id="@+id/storiesContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="137dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/userStoryIcon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/user_username"
+                            android:layout_width="95dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="0dp"
+                            android:text="@string/user_username"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/user_profileIcon" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/user_profileIcon"
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:layout_centerInParent="true"
+                            android:padding="3dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/e5f0769792ad25fa4500dd9a4c95b320"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:shapeAppearanceOverlay="@style/roundedImageView"
+                            tools:src="@drawable/e5f0769792ad25fa4500dd9a4c95b320" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/user2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="10dp"
+                        app:layout_constraintStart_toEndOf="@id/userStoryIcon"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/user2_profileIcon"
+                            android:layout_width="95dp"
+                            android:layout_height="95dp"
+                            android:layout_centerInParent="true"
+                            android:padding="5dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/_adb111ae3c50a92d7ab06d79c538d45"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:shapeAppearanceOverlay="@style/roundedImageView"
+                            app:strokeColor="#1fd655"
+                            app:strokeWidth="5dp"
+                            tools:src="@drawable/_adb111ae3c50a92d7ab06d79c538d45" />
+
+                        <TextView
+                            android:id="@+id/user2_username"
+                            android:layout_width="95dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="0dp"
+                            android:text="@string/user2_username"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/user2_profileIcon" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/user3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="10dp"
+                        app:layout_constraintStart_toEndOf="@id/user2"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/user3_profileIcon"
+                            android:layout_width="95dp"
+                            android:layout_height="95dp"
+                            android:layout_centerInParent="true"
+                            android:padding="5dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/fa07dd62b72e23226251163fdb4b6624"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:shapeAppearanceOverlay="@style/roundedImageView"
+                            app:strokeColor="#1fd655"
+                            app:strokeWidth="5dp"
+                            tools:src="@drawable/fa07dd62b72e23226251163fdb4b6624" />
+
+                        <TextView
+                            android:id="@+id/user3_username"
+                            android:layout_width="95dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="0dp"
+                            android:text="@string/user3_username"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/user3_profileIcon" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/user4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="10dp"
+                        app:layout_constraintStart_toEndOf="@id/user3"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/user4_profileIcon"
+                            android:layout_width="95dp"
+                            android:layout_height="95dp"
+                            android:layout_centerInParent="true"
+                            android:padding="5dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/_a2798355316e7e80af84040686c3344"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:shapeAppearanceOverlay="@style/roundedImageView"
+                            app:strokeColor="#1fd655"
+                            app:strokeWidth="5dp"
+                            tools:src="@drawable/_a2798355316e7e80af84040686c3344" />
+
+                        <TextView
+                            android:id="@+id/user4_username"
+                            android:layout_width="95dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="0dp"
+                            android:text="@string/user4_username"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/user4_profileIcon" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/user5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="10dp"
+                        app:layout_constraintStart_toEndOf="@id/user4"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/user5_profileIcon"
+                            android:layout_width="95dp"
+                            android:layout_height="95dp"
+                            android:layout_centerInParent="true"
+                            android:padding="5dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/_e832a322f2ae462c0983281f48f14a8"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:shapeAppearanceOverlay="@style/roundedImageView"
+                            app:strokeColor="#1fd655"
+                            app:strokeWidth="5dp"
+                            tools:src="@drawable/_e832a322f2ae462c0983281f48f14a8" />
+
+                        <TextView
+                            android:id="@+id/user5_username"
+                            android:layout_width="95dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="0dp"
+                            android:text="@string/user5_username"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/user5_profileIcon" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/postsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/storiesContainer">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/post1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/postsContainer">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/post1_userProfileIcon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/_adb111ae3c50a92d7ab06d79c538d45"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:shapeAppearanceOverlay="@style/roundedImageView"
+                        app:strokeColor="#1fd655"
+                        app:strokeWidth="3dp"
+                        tools:src="@drawable/_adb111ae3c50a92d7ab06d79c538d45" />
+
+                    <ImageView
+                        android:id="@+id/post1_moreOptionsButton"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="15dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@id/post1"
+                        app:srcCompat="@drawable/instagram_moreoptions_icon" />
+
+                    <ImageView
+                        android:id="@+id/post1_post"
+                        android:layout_width="0dp"
+                        android:layout_height="311dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/the_weeknd_tour1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/post1_userProfileIcon"
+                        app:srcCompat="@drawable/the_weeknd_tour1" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/post1_buttonBar"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/post1_post">
+
+                        <ImageView
+                            android:id="@+id/post1_likeButton"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginStart="15dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/instagram_like_icon" />
+
+                        <ImageView
+                            android:id="@+id/post1_commentButton"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginStart="15dp"
+                            app:layout_constraintStart_toEndOf="@id/post1_likeButton"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/instagram_comment_icon" />
+
+                        <ImageView
+                            android:id="@+id/post1_shareButton"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginStart="15dp"
+                            app:layout_constraintStart_toEndOf="@id/post1_commentButton"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/instagram_share_icon" />
+
+                        <ImageView
+                            android:id="@+id/post1_bookmarkButton"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginEnd="15dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/instagram_bookmark_icon" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <TextView
+                        android:id="@+id/post1_username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/user2_username"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toEndOf="@id/post1_userProfileIcon"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/post1_likeCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/sample_likeCount"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/post1_buttonBar" />
+
+                    <TextView
+                        android:id="@+id/post1_usernameCaption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/user2_username"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/post1_likeCount" />
+
+                    <TextView
+                        android:id="@+id/post1_caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/sample_caption"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@id/post1_usernameCaption"
+                        app:layout_constraintTop_toBottomOf="@id/post1_likeCount" />
+
+                    <TextView
+                        android:id="@+id/post1_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/sample_date"
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/darker_gray"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/post1_usernameCaption" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/post2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/post1">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/post2_userProfileIcon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/_a2798355316e7e80af84040686c3344"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:shapeAppearanceOverlay="@style/roundedImageView"
+                        app:strokeColor="#1fd655"
+                        app:strokeWidth="3dp"
+                        tools:src="@drawable/_a2798355316e7e80af84040686c3344" />
+
+                    <ImageView
+                        android:id="@+id/post2_moreOptionsButton"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="15dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@id/post2"
+                        app:srcCompat="@drawable/instagram_moreoptions_icon" />
+
+                    <ImageView
+                        android:id="@+id/post2_post"
+                        android:layout_width="0dp"
+                        android:layout_height="311dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/anitamaxwynn"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/post2_userProfileIcon" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/post2_buttonBar"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/post2_post">
+
+                        <ImageView
+                            android:id="@+id/post2_likeButton"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginStart="15dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/instagram_like_icon" />
+
+                        <ImageView
+                            android:id="@+id/post2_commentButton"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginStart="15dp"
+                            app:layout_constraintStart_toEndOf="@id/post2_likeButton"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/instagram_comment_icon" />
+
+                        <ImageView
+                            android:id="@+id/post2_shareButton"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginStart="15dp"
+                            app:layout_constraintStart_toEndOf="@id/post2_commentButton"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/instagram_share_icon" />
+
+                        <ImageView
+                            android:id="@+id/post2_bookmarkButton"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginEnd="15dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/instagram_bookmark_icon" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <TextView
+                        android:id="@+id/post2_username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/user4_username"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toEndOf="@id/post2_userProfileIcon"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/post2_likeCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/sample_likeCount"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/post2_buttonBar" />
+
+                    <TextView
+                        android:id="@+id/post2_usernameCaption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/user4_username"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/post2_likeCount" />
+
+                    <TextView
+                        android:id="@+id/post2_caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/post2_caption"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@id/post2_usernameCaption"
+                        app:layout_constraintTop_toBottomOf="@id/post2_likeCount" />
+
+                    <TextView
+                        android:id="@+id/post2_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/sample_date"
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/darker_gray"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/post2_usernameCaption" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/post3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/post2">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/post3_userProfileIcon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        app:strokeColor="#1fd655"
+                        app:strokeWidth="3dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/_e832a322f2ae462c0983281f48f14a8"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:shapeAppearanceOverlay="@style/roundedImageView"
+                        tools:src="@drawable/_e832a322f2ae462c0983281f48f14a8" />
+
+                    <ImageView
+                        android:id="@+id/post3_moreOptionsButton"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="15dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@id/post3"
+                        app:srcCompat="@drawable/instagram_moreoptions_icon" />
+
+                    <ImageView
+                        android:id="@+id/post3_post"
+                        android:layout_width="0dp"
+                        android:layout_height="311dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/f434198617b505887d949e52b0995f61"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/post3_userProfileIcon" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/post3_buttonBar"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/post3_post">
+
+                        <ImageView
+                            android:id="@+id/post3_likeButton"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginStart="15dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/instagram_like_icon" />
+
+                        <ImageView
+                            android:id="@+id/post3_commentButton"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginStart="15dp"
+                            app:layout_constraintStart_toEndOf="@id/post3_likeButton"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/instagram_comment_icon" />
+
+                        <ImageView
+                            android:id="@+id/post3_shareButton"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginStart="15dp"
+                            app:layout_constraintStart_toEndOf="@id/post3_commentButton"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/instagram_share_icon" />
+
+                        <ImageView
+                            android:id="@+id/post3_bookmarkButton"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginEnd="15dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/instagram_bookmark_icon" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <TextView
+                        android:id="@+id/post3_username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/user5_username"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toEndOf="@id/post3_userProfileIcon"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/post3_likeCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/sample_likeCount"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/post3_buttonBar" />
+
+                    <TextView
+                        android:id="@+id/post3_usernameCaption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/user4_username"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/post3_likeCount" />
+
+                    <TextView
+                        android:id="@+id/post3_caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/post3_caption"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@id/post3_usernameCaption"
+                        app:layout_constraintTop_toBottomOf="@id/post3_likeCount" />
+
+                    <TextView
+                        android:id="@+id/post3_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/sample_date"
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/darker_gray"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/post3_usernameCaption" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
