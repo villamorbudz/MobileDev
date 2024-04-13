@@ -44,7 +44,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab6b8cbc-9c11-44b6-8e80-5df30167d5d1" name="Changes" comment="added Connect3" />
+    <list default="true" id="ab6b8cbc-9c11-44b6-8e80-5df30167d5d1" name="Changes" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +125,7 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/GILES/Documents/CIT-U BSCS/2 - 2nd Semester/CSIT284 - Platform-based Development 3 (Mobile)/CSIT284-MobileDev/LayoutActivity",
     "recommended.upgrade.do.not.ask.for.project": "true",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
@@ -248,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713035108852</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1713035554094</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713035554094</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,9 +274,11 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="added calculator" />
     <MESSAGE value="added Connect3" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Connect3" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
