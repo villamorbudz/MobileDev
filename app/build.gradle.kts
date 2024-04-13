@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.instagramactivity"
+    namespace = "com.example.layoutactivity"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.instagramactivity"
+        applicationId = "com.example.layoutactivity"
         minSdk = 27
         targetSdk = 34
         versionCode = 1
