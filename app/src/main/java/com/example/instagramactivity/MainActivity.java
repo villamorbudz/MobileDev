@@ -13,24 +13,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button layoutActivityBtn= findViewById(R.id.layoutActivityBtn);
-        Button buttonsActivityBtn = findViewById(R.id.buttonsActivityBtn);
-        Button calculatorActivityBtn = findViewById(R.id.calculatorActivityBtn);
-
-        layoutActivityBtn.setOnClickListener(view -> {
-            Intent openLayoutActivity = new Intent(MainActivity.this, LayoutExercise.class);
-            startActivity(openLayoutActivity);
+        findViewById(R.id.layoutActivityBtn).setOnClickListener(view -> {
+            Intent openActivity = new Intent(MainActivity.this, LayoutExercise.class);
+            startActivity(openActivity);
         });
 
-        buttonsActivityBtn.setOnClickListener(view -> {
-            Intent openButtonsActivity = new Intent(MainActivity.this, ButtonActivity.class);
-            startActivity(openButtonsActivity);
+        findViewById(R.id.buttonsActivityBtn).setOnClickListener(view -> {
+            Intent openActivity = new Intent(MainActivity.this, ButtonActivity.class);
+            startActivity(openActivity);
         });
 
-        calculatorActivityBtn.setOnClickListener(view -> {
-            Intent openCalculatorActivity = new Intent(MainActivity.this, Calculator.class);
-            startActivity(openCalculatorActivity);
+        findViewById(R.id.calculatorActivityBtn).setOnClickListener(view -> {
+            Intent openActivity = new Intent(MainActivity.this, Calculator.class);
+            startActivity(openActivity);
         });
 
+        findViewById(R.id.connect3Btn).setOnClickListener(view -> {
+            Intent openActivity = new Intent(MainActivity.this, Connect3.class);
+            startActivity(openActivity);
+        });
     }
 }

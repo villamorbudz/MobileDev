@@ -10,10 +10,10 @@
         android:id="@+id/gameContainer"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="170dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="65dp"
         android:background="#0000FF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,8 +24,8 @@
 
         <Button
             android:id="@+id/cell00Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -35,8 +35,8 @@
 
         <Button
             android:id="@+id/cell01Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -45,8 +45,8 @@
 
         <Button
             android:id="@+id/cell02Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -55,8 +55,8 @@
 
         <Button
             android:id="@+id/cell03Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -65,8 +65,8 @@
 
         <Button
             android:id="@+id/cell04Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -75,8 +75,8 @@
 
         <Button
             android:id="@+id/cell10Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -87,8 +87,8 @@
 
         <Button
             android:id="@+id/cell11Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -98,8 +98,8 @@
 
         <Button
             android:id="@+id/cell12Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -109,8 +109,8 @@
 
         <Button
             android:id="@+id/cell13Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -120,8 +120,8 @@
 
         <Button
             android:id="@+id/cell14Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -131,8 +131,8 @@
 
         <Button
             android:id="@+id/cell20Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -143,8 +143,8 @@
 
         <Button
             android:id="@+id/cell21Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -154,8 +154,8 @@
 
         <Button
             android:id="@+id/cell22Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -165,8 +165,8 @@
 
         <Button
             android:id="@+id/cell23Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -176,8 +176,8 @@
 
         <Button
             android:id="@+id/cell24Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -187,8 +187,8 @@
 
         <Button
             android:id="@+id/cell30Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -199,8 +199,8 @@
 
         <Button
             android:id="@+id/cell31Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -210,8 +210,8 @@
 
         <Button
             android:id="@+id/cell32Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -221,8 +221,8 @@
 
         <Button
             android:id="@+id/cell33Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -232,8 +232,8 @@
 
         <Button
             android:id="@+id/cell34Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -243,8 +243,8 @@
 
         <Button
             android:id="@+id/cell40Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -255,8 +255,8 @@
 
         <Button
             android:id="@+id/cell41Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -266,8 +266,8 @@
 
         <Button
             android:id="@+id/cell42Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -277,8 +277,8 @@
 
         <Button
             android:id="@+id/cell43Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -288,8 +288,8 @@
 
         <Button
             android:id="@+id/cell44Btn"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
@@ -300,10 +300,10 @@
 
     <Button
         android:id="@+id/resetBtn"
-        android:layout_width="128dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginBottom="50dp"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="325dp"
+        android:layout_marginBottom="10dp"
         android:text="Reset"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -313,8 +313,8 @@
         android:id="@+id/player1Text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="85dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="165dp"
         android:fontFamily="sans-serif-black"
         android:shadowColor="#000000"
         android:shadowDx="6"
@@ -327,11 +327,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/player2Text"
+        android:id="@+id/player1Text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="85dp"
-        android:layout_marginEnd="25dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="30dp"
         android:fontFamily="sans-serif-black"
         android:shadowColor="#000000"
         android:shadowDx="6"
