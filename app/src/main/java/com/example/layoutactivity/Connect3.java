@@ -1,7 +1,9 @@
 package com.example.layoutactivity;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.res.Configuration;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
@@ -199,7 +201,12 @@ public class Connect3 extends AppCompatActivity {
             gameInfo.setText("Player 1's Turn");
         }
 
-        int gameResult = checkGameStatus();
+        checkGameStatus();
+    }
+
+    private void checkWin(int gameResult) {
+        TextView gameInfo = findViewById(R.id.gameInfoText);
+
         if(gameResult == 0) {
             player1Turn = !player1Turn;
         } else {
@@ -215,8 +222,63 @@ public class Connect3 extends AppCompatActivity {
                     gameInfo.setTextColor(0xFFFFD800);
                     gameInfo.setText("PLAYER 2 WINS!");
                     break;
+                case 3:
+                    gameInfo.setTextColor(0xFFFFFFFF);
+                    gameInfo.setText("IT'S A DRAW!");
+                    break;
             }
         }
+    }
+
+    private void checkGameStatus() {
+        boolean isDraw = true;
+        for (int[] row : board) {
+            for (int cell : row) {
+                if (cell == 0) {
+                    isDraw = false;
+                    break;
+                }
+            }
+            if (!isDraw) {
+                break;
+            }
+        }
+
+        if(isDraw) {
+            checkWin(3);
+        }
+        for (int i = 0; i <= 5 - 3; i++) {
+            for (int j = 0; j < 5; j++) {
+                if (board[i][j] != 0 && board[i][j] == board[i + 1][j] && board[i][j] == board[i + 2][j]) {
+                    checkWin(board[i][j]);
+                    return;
+                }
+                if (board[j][i] != 0 && board[j][i] == board[j][i + 1] && board[j][i] == board[j][i + 2]) {
+                    checkWin(board[j][i]);
+                    return;
+                }
+            }
+        }
+
+        for (int i = 0; i <= 5 - 3; i++) {
+            for (int j = 0; j <= 5 - 3; j++) {
+                if (board[i][j] != 0 && board[i][j] == board[i + 1][j + 1] && board[i][j] == board[i + 2][j + 2]) {
+                    checkWin(board[i][j]);
+                    return;
+                }
+            }
+        }
+
+        for (int i = 0; i <= 5 - 3; i++) {
+            for (int j = 2; j < 5; j++) {
+                if (board[i][j] != 0 && board[i][j] == board[i + 1][j - 1] && board[i][j] == board[i + 2][j - 2]) {
+                    checkWin(board[i][j]);
+                    return;
+                }
+            }
+        }
+        checkWin(0);
+        return;
     }
 
     private void resetGame(View view) {
@@ -234,38 +296,7 @@ public class Connect3 extends AppCompatActivity {
 
         player1Turn = true;
         TextView gameInfo = findViewById(R.id.gameInfoText);
+        gameInfo.setTextColor(0xFFFF0000);
         gameInfo.setText("Player 1's Turn");
     }
-
-    private int checkGameStatus() {
-        for (int i = 0; i <= 5 - 3; i++) {
-            for (int j = 0; j < 5; j++) {
-                if (board[i][j] != 0 && board[i][j] == board[i + 1][j] && board[i][j] == board[i + 2][j]) {
-                    return board[i][j];
-                }
-                if (board[j][i] != 0 && board[j][i] == board[j][i + 1] && board[j][i] == board[j][i + 2]) {
-                    return board[j][i];
-                }
-            }
-        }
-
-        for (int i = 0; i <= 5 - 3; i++) {
-            for (int j = 0; j <= 5 - 3; j++) {
-                if (board[i][j] != 0 && board[i][j] == board[i + 1][j + 1] && board[i][j] == board[i + 2][j + 2]) {
-                    return board[i][j];
-                }
-            }
-        }
-
-        for (int i = 0; i <= 5 - 3; i++) {
-            for (int j = 2; j < 5; j++) {
-                if (board[i][j] != 0 && board[i][j] == board[i + 1][j - 1] && board[i][j] == board[i + 2][j - 2]) {
-                    return board[i][j];
-                }
-            }
-        }
-        return 0;
-    }
-
-
 }

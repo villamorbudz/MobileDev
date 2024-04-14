@@ -1,31 +1,35 @@
 [
     {
-        "merged": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-merged_res-32:\\layout-land_activity_connect3.xml.flat",
-        "source": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-main-34:\\layout-land\\activity_connect3.xml"
-    },
-    {
         "merged": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-merged_res-32:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-main-34:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-merged_res-32:\\drawable_dbc7636bb173ffb38acb503d8ee44995.jpg.flat",
-        "source": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-main-34:\\drawable\\dbc7636bb173ffb38acb503d8ee44995.jpg"
+        "merged": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-merged_res-32:\\layout-land_activity_connect3.xml.flat",
+        "source": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-main-34:\\layout-land\\activity_connect3.xml"
     },
     {
         "merged": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-merged_res-32:\\drawable_instagram_bookmark_icon.png.flat",
         "source": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-main-34:\\drawable\\instagram_bookmark_icon.png"
     },
     {
+        "merged": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-merged_res-32:\\drawable_dbc7636bb173ffb38acb503d8ee44995.jpg.flat",
+        "source": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-main-34:\\drawable\\dbc7636bb173ffb38acb503d8ee44995.jpg"
+    },
+    {
         "merged": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-merged_res-32:\\drawable_instagram_share_icon.png.flat",
+        "source": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-main-34:\\drawable\\instagram_share_icon.png"
     },
     {
         "merged": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-merged_res-32:\\drawable_instagram_share_icon.png.flat",
-        "source": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-main-34:\\drawable\\instagram_share_icon.png"
+        "merged": "com.example.layoutactivity.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "com.example.layoutactivity.app-main-34:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -56,12 +60,12 @@
         "source": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-main-34:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-merged_res-32:\\drawable_instagram_comment_icon.png.flat",
-        "source": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-main-34:\\drawable\\instagram_comment_icon.png"
+        "merged": "com.example.layoutactivity.app-merged_res-32:/layout-land_activity_main.xml.flat",
+        "source": "com.example.layoutactivity.app-main-34:/layout-land/activity_main.xml"
     },
     {
-        "merged": "com.example.layoutactivity.app-merged_res-32:/layout_activity_connect3.xml.flat",
-        "source": "com.example.layoutactivity.app-main-34:/layout/activity_connect3.xml"
+        "merged": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-merged_res-32:\\drawable_instagram_comment_icon.png.flat",
+        "source": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-main-34:\\drawable\\instagram_comment_icon.png"
     },
     {
         "merged": "C:\\Users\\BG\\.gradle\\daemon\\8.2\\com.example.layoutactivity.app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
