@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.instagramactivity",
+  "applicationId": "com.example.layoutactivity",
   "variantName": "debug",
   "elements": [
     {

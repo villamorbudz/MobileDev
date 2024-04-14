@@ -3,6 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">InstagramActivity</string>
+    <string name="connect3Cell_default">.</string>
     <string name="post2_caption">this is my alter ego</string>
     <string name="post3_caption">philippine hair lines</string>
     <string name="sample_caption">lorem ipsum dolor sit amet</string>

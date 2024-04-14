@@ -4,7 +4,7 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.instagramactivity",
+  "applicationId": "com.example.layoutactivity",
   "variantName": "debug",
   "elements": [
     {

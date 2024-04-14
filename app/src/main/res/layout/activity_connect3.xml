@@ -8,27 +8,27 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/gameContainer"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="170dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="235dp"
         android:background="#0000FF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toTopOf="parent">
 
         <Button
             android:id="@+id/cell00Btn"
             android:layout_width="55dp"
             android:layout_height="60dp"
-            android:layout_marginStart="15dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:shapeAppearanceOverlay="@style/circleButton" />
@@ -40,6 +40,8 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toEndOf="@+id/cell00Btn"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -50,6 +52,8 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toEndOf="@+id/cell01Btn"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -60,6 +64,8 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toEndOf="@+id/cell02Btn"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -69,7 +75,11 @@
             android:layout_height="60dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
             android:backgroundTint="@color/white"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cell03Btn"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -77,10 +87,12 @@
             android:id="@+id/cell10Btn"
             android:layout_width="55dp"
             android:layout_height="60dp"
-            android:layout_marginStart="15dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/cell00Btn"
             app:shapeAppearanceOverlay="@style/circleButton" />
@@ -93,6 +105,8 @@
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toEndOf="@+id/cell10Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell01Btn" />
 
@@ -104,6 +118,8 @@
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toEndOf="@+id/cell11Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell02Btn" />
 
@@ -115,6 +131,8 @@
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toEndOf="@+id/cell12Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell03Btn" />
 
@@ -124,8 +142,12 @@
             android:layout_height="60dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cell13Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell04Btn" />
 
@@ -133,10 +155,12 @@
             android:id="@+id/cell20Btn"
             android:layout_width="55dp"
             android:layout_height="60dp"
-            android:layout_marginStart="15dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/cell10Btn"
             app:shapeAppearanceOverlay="@style/circleButton" />
@@ -149,6 +173,8 @@
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toEndOf="@+id/cell20Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell11Btn" />
 
@@ -160,6 +186,8 @@
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toEndOf="@+id/cell21Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell12Btn" />
 
@@ -171,6 +199,8 @@
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toEndOf="@+id/cell22Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell13Btn" />
 
@@ -180,8 +210,12 @@
             android:layout_height="60dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cell23Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell14Btn" />
 
@@ -189,10 +223,12 @@
             android:id="@+id/cell30Btn"
             android:layout_width="55dp"
             android:layout_height="60dp"
-            android:layout_marginStart="15dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/cell20Btn"
             app:shapeAppearanceOverlay="@style/circleButton" />
@@ -205,6 +241,8 @@
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toEndOf="@+id/cell30Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell21Btn" />
 
@@ -216,6 +254,8 @@
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toEndOf="@+id/cell31Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell22Btn" />
 
@@ -227,6 +267,8 @@
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toEndOf="@+id/cell32Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell23Btn" />
 
@@ -236,8 +278,12 @@
             android:layout_height="60dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cell33Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell24Btn" />
 
@@ -245,10 +291,14 @@
             android:id="@+id/cell40Btn"
             android:layout_width="55dp"
             android:layout_height="60dp"
-            android:layout_marginStart="15dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/cell30Btn"
             app:shapeAppearanceOverlay="@style/circleButton" />
@@ -259,8 +309,12 @@
             android:layout_height="60dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cell40Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell31Btn" />
 
@@ -270,8 +324,12 @@
             android:layout_height="60dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cell41Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell32Btn" />
 
@@ -281,8 +339,12 @@
             android:layout_height="60dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cell42Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell33Btn" />
 
@@ -292,55 +354,48 @@
             android:layout_height="60dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
             android:backgroundTint="@color/white"
             android:enabled="false"
+            android:text="@string/connect3Cell_default"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cell43Btn"
             app:layout_constraintTop_toBottomOf="@+id/cell34Btn" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
         android:id="@+id/resetBtn"
-        android:layout_width="128dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginBottom="50dp"
+        android:layout_width="173dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="40dp"
+        android:shadowRadius="3"
         android:text="Reset"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/player1Text"
+        android:id="@+id/gameInfoText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="85dp"
-        android:fontFamily="sans-serif-black"
+        android:layout_marginStart="102dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="35dp"
         android:shadowColor="#000000"
-        android:shadowDx="6"
-        android:shadowDy="6"
+        android:shadowDx="5"
+        android:shadowDy="8"
         android:shadowRadius="1"
         android:text="Player 1's Turn"
+        android:textAlignment="center"
         android:textColor="#FF0000"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/player2Text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="85dp"
-        android:layout_marginEnd="25dp"
-        android:fontFamily="sans-serif-black"
-        android:shadowColor="#000000"
-        android:shadowDx="6"
-        android:shadowDy="6"
-        android:shadowRadius="1"
-        android:text="Player 2's Turn"
-        android:textColor="#FFFF00"
-        android:textSize="24sp"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gameContainer"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

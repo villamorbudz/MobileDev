@@ -1,4 +1,4 @@
-com.example.instagramactivity
+com.example.layoutactivity
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -3323,6 +3323,7 @@ id fragment_container_view_tag
 id frost
 id fullscreen_header
 id gameContainer
+id gameInfoText
 id ghost_view
 id ghost_view_holder
 id gone
@@ -3548,6 +3549,7 @@ id radio
 id ratio
 id rectangles
 id report_drawn
+id resetBtn
 id resultTextView
 id reverseSawtooth
 id right
@@ -3944,6 +3946,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string connect3Cell_default
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description

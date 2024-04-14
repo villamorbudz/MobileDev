@@ -60,6 +60,7 @@ id disappearBtn
 id divisionBtn
 id equalsBtn
 id gameContainer
+id gameInfoText
 id header
 id instagram_messagesBtn
 id instagram_notificationsBtn
@@ -126,6 +127,7 @@ id post3_userProfileIcon
 id post3_username
 id post3_usernameCaption
 id postsContainer
+id resetBtn
 id resultTextView
 id signBtn
 id storiesContainer
@@ -154,6 +156,7 @@ layout layout_activity
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string connect3Cell_default
 string post2_caption
 string post3_caption
 string sample_caption
