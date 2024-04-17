@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PassingIntentsExercise">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/studentRegForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/studentRegFormTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="25dp"
+                android:text="Student Registration Form"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/studentReg_fNameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="First Name"
+                app:layout_constraintBottom_toTopOf="@+id/studentReg_fName"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/studentReg_fName"
+                android:layout_width="175dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentRegFormTitle" />
+
+            <TextView
+                android:id="@+id/studentReg_lNameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="123dp"
+                android:layout_marginBottom="5dp"
+                android:text="Last Name"
+                app:layout_constraintBottom_toTopOf="@+id/studentReg_lName"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/studentReg_lName"
+                android:layout_width="175dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="15dp"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentRegFormTitle" />
+
+            <TextView
+                android:id="@+id/studReg_genderLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="Gender"
+                app:layout_constraintBottom_toTopOf="@+id/studentReg_gender"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <RadioGroup
+                android:id="@+id/studentReg_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentReg_fName">
+
+                <RadioButton
+                    android:id="@+id/studentReg_male"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textAlignment="viewStart" />
+
+                <RadioButton
+                    android:id="@+id/studentReg_female"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="Female" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="Other" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/studentReg_birthdateLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="Birthdate"
+                app:layout_constraintBottom_toTopOf="@+id/studentReg_birthdate"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/studentReg_birthdate"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:hint="mm/dd/yy"
+                android:inputType="date"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentReg_gender" />
+
+            <ImageButton
+                android:id="@+id/studentReg_birthdateBtn"
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintStart_toEndOf="@+id/studentReg_birthdate"
+                app:layout_constraintTop_toBottomOf="@+id/studentReg_gender" />
+
+            <TextView
+                android:id="@+id/studentReg_emailLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="Email"
+                app:layout_constraintBottom_toTopOf="@+id/studentReg_email"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/studentReg_courseLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="Course"
+                app:layout_constraintBottom_toTopOf="@+id/studentReg_course"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/studentReg_email"
+                android:layout_width="375dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:hint="name@domain.com"
+                android:inputType="textEmailAddress"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentReg_birthdate" />
+
+            <EditText
+                android:id="@+id/studentReg_phoneNumber"
+                android:layout_width="375dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:hint="11-digit Number"
+                android:inputType="phone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentReg_email" />
+
+            <TextView
+                android:id="@+id/studentReg_phoneNumberLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="Phone Number"
+                app:layout_constraintBottom_toTopOf="@+id/studentReg_phoneNumber"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/studentReg_course"
+                android:layout_width="175dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:hint="BSCS/BSIT"
+                android:inputType="textPersonName"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentReg_phoneNumber" />
+
+            <TextView
+                android:id="@+id/studentReg_yearLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="162dp"
+                android:layout_marginBottom="5dp"
+                android:text="Year"
+                app:layout_constraintBottom_toTopOf="@+id/studentReg_year"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/studentReg_year"
+                android:layout_width="175dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:ems="10"
+                android:hint="Year"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentReg_phoneNumber" />
+
+            <TextView
+                android:id="@+id/studentReg_streetBarangayLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="Street/Barangay"
+                app:layout_constraintBottom_toTopOf="@+id/studentReg_barangay"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/studentReg_barangay"
+                android:layout_width="375dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:hint="Street/Barangay"
+                android:inputType="textPersonName"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentReg_course" />
+
+            <EditText
+                android:id="@+id/studentReg_city"
+                android:layout_width="175dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:hint="Town/City"
+                android:inputType="textPersonName"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentReg_barangay" />
+
+            <TextView
+                android:id="@+id/studentReg_cityLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="Town/City"
+                app:layout_constraintBottom_toTopOf="@+id/studentReg_city"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/studentReg_province"
+                android:layout_width="175dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:ems="10"
+                android:hint="Province"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentReg_barangay" />
+
+            <TextView
+                android:id="@+id/studentReg_provinceLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="132dp"
+                android:layout_marginBottom="5dp"
+                android:text="Province"
+                app:layout_constraintBottom_toTopOf="@+id/studentReg_province"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/studentReg_clearBtn"
+                android:layout_width="175dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:text="Clear"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentReg_city" />
+
+            <Button
+                android:id="@+id/studentReg_submitBtn"
+                android:layout_width="175dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="15dp"
+                android:text="Submit"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentReg_province" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

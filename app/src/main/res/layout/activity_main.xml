@@ -31,9 +31,9 @@
                 android:layout_width="300dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="55dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginEnd="56dp"
-                android:text="Layout Activity"
+                android:text="Layout Exercise"
                 android:textAlignment="center"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -44,9 +44,9 @@
                 android:layout_width="300dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="55dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="56dp"
-                android:text="Buttons Activity"
+                android:text="Button Exercise"
                 android:textAlignment="center"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -57,7 +57,7 @@
                 android:layout_width="300dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="55dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="56dp"
                 android:text="Calculator"
                 android:textAlignment="center"
@@ -66,31 +66,63 @@
                 app:layout_constraintTop_toBottomOf="@+id/buttonsActivityBtn" />
 
             <Button
-                android:id="@+id/connect3Btn"
+                android:id="@+id/connectMatch3Btn"
                 android:layout_width="300dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="55dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="56dp"
-                android:text="Connect 3"
+                android:text="Connect 3 / Match 3"
                 android:textAlignment="center"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/midtermActivityBtn" />
+
+            <Button
+                android:id="@+id/midtermActivityBtn"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="56dp"
+                android:text="Midterm"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/calculatorActivityBtn" />
 
             <Button
-                android:id="@+id/Match3Btn"
+                android:id="@+id/passingIntentsActivityBtn"
                 android:layout_width="300dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="55dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="56dp"
-                android:text="Match 3"
-                android:textAlignment="center"
-                android:textAllCaps="false"
-                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="10dp"
+                android:text="Passing Intents"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/connect3Btn" />
+                app:layout_constraintTop_toBottomOf="@+id/connectMatch3Btn" />
+
+            <Button
+                android:id="@+id/fragmentsActivityBtn"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="10dp"
+                android:text="Fragments"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/passingIntentsActivityBtn" />
+
+            <Button
+                android:id="@+id/menusActivityBtn"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="10dp"
+                android:text="Menus"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fragmentsActivityBtn" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

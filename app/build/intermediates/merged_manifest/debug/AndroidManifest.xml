@@ -28,7 +28,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.InstagramActivity" >
         <activity
-            android:name="com.example.layoutactivity.Match3"
+            android:name="com.example.layoutactivity.PassingIntentsExercise2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.layoutactivity.PassingIntentsExercise"
             android:exported="false" />
         <activity
             android:name="com.example.layoutactivity.Connect3"

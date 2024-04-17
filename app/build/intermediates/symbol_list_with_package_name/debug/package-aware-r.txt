@@ -3091,7 +3091,6 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id META
-id Match3Btn
 id NO_DEBUG
 id SHIFT
 id SHOW_ALL
@@ -3242,7 +3241,7 @@ id closest
 id collapseActionView
 id compress
 id confirm_button
-id connect3Btn
+id connectMatch3Btn
 id constraint
 id constraintLayout
 id constraintLayout2
@@ -3322,6 +3321,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id fragmentsActivityBtn
 id frost
 id fullscreen_header
 id gameContainer
@@ -3402,8 +3402,10 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id menusActivityBtn
 id message
 id middle
+id midtermActivityBtn
 id mini
 id month_grid
 id month_navigation_bar
@@ -3493,6 +3495,7 @@ id parentPanel
 id parentRelative
 id parent_matrix
 id parenthesesBtn
+id passingIntentsActivityBtn
 id password_toggle
 id path
 id pathRelative
@@ -3549,6 +3552,7 @@ id pressed
 id progress_circular
 id progress_horizontal
 id radio
+id radioButton3
 id ratio
 id rectangles
 id report_drawn
@@ -3621,6 +3625,35 @@ id staticPostLayout
 id stop
 id storiesContainer
 id stretch
+id studReg_genderLabel
+id studentRegForm
+id studentRegFormTitle
+id studentReg_barangay
+id studentReg_birthdate
+id studentReg_birthdateBtn
+id studentReg_birthdateLabel
+id studentReg_city
+id studentReg_cityLabel
+id studentReg_clearBtn
+id studentReg_course
+id studentReg_courseLabel
+id studentReg_email
+id studentReg_emailLabel
+id studentReg_fName
+id studentReg_fNameLabel
+id studentReg_female
+id studentReg_gender
+id studentReg_lName
+id studentReg_lNameLabel
+id studentReg_male
+id studentReg_phoneNumber
+id studentReg_phoneNumberLabel
+id studentReg_province
+id studentReg_provinceLabel
+id studentReg_streetBarangayLabel
+id studentReg_submitBtn
+id studentReg_year
+id studentReg_yearLabel
 id submenuarrow
 id submit_area
 id subtractionBtn
@@ -3828,7 +3861,8 @@ layout activity_button
 layout activity_calculator
 layout activity_connect3
 layout activity_main
-layout activity_match3
+layout activity_passing_intents_exercise
+layout activity_passing_intents_exercise2
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -5200,6 +5234,7 @@ style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
 style circleButton
+style mainMenuBtn
 style roundedImageView
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity

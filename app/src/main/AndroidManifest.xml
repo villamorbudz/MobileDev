@@ -13,6 +13,12 @@
         android:theme="@style/Theme.InstagramActivity"
         tools:targetApi="31">
         <activity
+            android:name=".PassingIntentsExercise2"
+            android:exported="false" />
+        <activity
+            android:name=".PassingIntentsExercise"
+            android:exported="false" />
+        <activity
             android:name=".Connect3"
             android:exported="false" />
         <activity

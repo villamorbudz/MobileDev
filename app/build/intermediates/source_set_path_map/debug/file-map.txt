@@ -1,35 +1,35 @@
-com.example.layoutactivity.app-core-ktx-1.9.0-0 C:\Users\GILES\.gradle\caches\transforms-3\0119090904485be6b56960bdff55eb84\transformed\core-ktx-1.9.0\res
-com.example.layoutactivity.app-emoji2-1.2.0-1 C:\Users\GILES\.gradle\caches\transforms-3\10efd1a8a1e4bccfc97bc09faae7ee2b\transformed\emoji2-1.2.0\res
-com.example.layoutactivity.app-viewpager2-1.0.0-2 C:\Users\GILES\.gradle\caches\transforms-3\12cbf164b3517d4b4a2b79faefad9729\transformed\viewpager2-1.0.0\res
-com.example.layoutactivity.app-drawerlayout-1.1.1-3 C:\Users\GILES\.gradle\caches\transforms-3\1e24dcedb9b6f510b266c4ec1a80a730\transformed\drawerlayout-1.1.1\res
-com.example.layoutactivity.app-emoji2-views-helper-1.2.0-4 C:\Users\GILES\.gradle\caches\transforms-3\2b290026f78752244d01b8fb4ad63c07\transformed\emoji2-views-helper-1.2.0\res
-com.example.layoutactivity.app-lifecycle-viewmodel-2.6.1-5 C:\Users\GILES\.gradle\caches\transforms-3\3172f0ece61a7c2cd34a5374dbc400cd\transformed\lifecycle-viewmodel-2.6.1\res
-com.example.layoutactivity.app-constraintlayout-2.1.4-6 C:\Users\GILES\.gradle\caches\transforms-3\3c3f963536feb231f5c4f35c76cfd2c8\transformed\constraintlayout-2.1.4\res
-com.example.layoutactivity.app-transition-1.2.0-7 C:\Users\GILES\.gradle\caches\transforms-3\3c8b238de41bca5ec2ec7dd929b5539e\transformed\transition-1.2.0\res
-com.example.layoutactivity.app-coordinatorlayout-1.1.0-8 C:\Users\GILES\.gradle\caches\transforms-3\3e319c84fedca9f5beed929593cb7754\transformed\coordinatorlayout-1.1.0\res
-com.example.layoutactivity.app-startup-runtime-1.1.1-9 C:\Users\GILES\.gradle\caches\transforms-3\4fc01dd1c557d85c1b6d06723ca7986b\transformed\startup-runtime-1.1.1\res
-com.example.layoutactivity.app-lifecycle-livedata-core-2.6.1-10 C:\Users\GILES\.gradle\caches\transforms-3\531a53f19fb0e9fc1c14e69159af28bb\transformed\lifecycle-livedata-core-2.6.1\res
-com.example.layoutactivity.app-recyclerview-1.1.0-11 C:\Users\GILES\.gradle\caches\transforms-3\56d6b067c1c0451712ab75866a8221c3\transformed\recyclerview-1.1.0\res
-com.example.layoutactivity.app-annotation-experimental-1.3.0-12 C:\Users\GILES\.gradle\caches\transforms-3\87a862933960fcec04098f9e7f0f61d2\transformed\annotation-experimental-1.3.0\res
-com.example.layoutactivity.app-lifecycle-process-2.6.1-13 C:\Users\GILES\.gradle\caches\transforms-3\8e5c7cd632e04d5e01ad601765d9c329\transformed\lifecycle-process-2.6.1\res
-com.example.layoutactivity.app-activity-1.8.0-14 C:\Users\GILES\.gradle\caches\transforms-3\8edc3acd8b8c4c01a4d6b49d6cfa3238\transformed\activity-1.8.0\res
-com.example.layoutactivity.app-lifecycle-livedata-2.6.1-15 C:\Users\GILES\.gradle\caches\transforms-3\b72a780ccf02e2b1143b7914ca6c4272\transformed\lifecycle-livedata-2.6.1\res
-com.example.layoutactivity.app-core-runtime-2.2.0-16 C:\Users\GILES\.gradle\caches\transforms-3\ba7da01123a70f2d448ef3edb8246905\transformed\core-runtime-2.2.0\res
-com.example.layoutactivity.app-material-1.11.0-17 C:\Users\GILES\.gradle\caches\transforms-3\bcbb64b32ef74df1e7f539830aba798e\transformed\material-1.11.0\res
-com.example.layoutactivity.app-appcompat-resources-1.6.1-18 C:\Users\GILES\.gradle\caches\transforms-3\cc4917c4a942beadce53b84fb75248e5\transformed\appcompat-resources-1.6.1\res
-com.example.layoutactivity.app-appcompat-1.6.1-19 C:\Users\GILES\.gradle\caches\transforms-3\d063217e54f2732c884cdab1479d9530\transformed\appcompat-1.6.1\res
-com.example.layoutactivity.app-core-1.9.0-20 C:\Users\GILES\.gradle\caches\transforms-3\d1a3c6de8e93d03ea17a50f19d580d02\transformed\core-1.9.0\res
-com.example.layoutactivity.app-lifecycle-viewmodel-savedstate-2.6.1-21 C:\Users\GILES\.gradle\caches\transforms-3\d5280c51f5b1aff427d05bfc1618094f\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
-com.example.layoutactivity.app-lifecycle-runtime-2.6.1-22 C:\Users\GILES\.gradle\caches\transforms-3\e068a9929cdc48df28283c1cbfa244c7\transformed\lifecycle-runtime-2.6.1\res
-com.example.layoutactivity.app-fragment-1.3.6-23 C:\Users\GILES\.gradle\caches\transforms-3\e19b52c382c18d69a7edb127ad1db1a3\transformed\fragment-1.3.6\res
-com.example.layoutactivity.app-savedstate-1.2.1-24 C:\Users\GILES\.gradle\caches\transforms-3\e4f1326bb726ec13847237affc77ff1f\transformed\savedstate-1.2.1\res
-com.example.layoutactivity.app-profileinstaller-1.3.0-25 C:\Users\GILES\.gradle\caches\transforms-3\fc3103e6058623dcaa35e9dbd552760d\transformed\profileinstaller-1.3.0\res
-com.example.layoutactivity.app-cardview-1.0.0-26 C:\Users\GILES\.gradle\caches\transforms-3\fda85e8f455d18a498d8ef1367fb2e10\transformed\cardview-1.0.0\res
-com.example.layoutactivity.app-pngs-27 C:\Users\GILES\Documents\CIT-U BSCS\2 - 2nd Semester\CSIT284 - Platform-based Development 3 (Mobile)\MobileDev\app\build\generated\res\pngs\debug
-com.example.layoutactivity.app-resValues-28 C:\Users\GILES\Documents\CIT-U BSCS\2 - 2nd Semester\CSIT284 - Platform-based Development 3 (Mobile)\MobileDev\app\build\generated\res\resValues\debug
-com.example.layoutactivity.app-rs-29 C:\Users\GILES\Documents\CIT-U BSCS\2 - 2nd Semester\CSIT284 - Platform-based Development 3 (Mobile)\MobileDev\app\build\generated\res\rs\debug
-com.example.layoutactivity.app-packageDebugResources-30 C:\Users\GILES\Documents\CIT-U BSCS\2 - 2nd Semester\CSIT284 - Platform-based Development 3 (Mobile)\MobileDev\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.layoutactivity.app-packageDebugResources-31 C:\Users\GILES\Documents\CIT-U BSCS\2 - 2nd Semester\CSIT284 - Platform-based Development 3 (Mobile)\MobileDev\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.layoutactivity.app-merged_res-32 C:\Users\GILES\Documents\CIT-U BSCS\2 - 2nd Semester\CSIT284 - Platform-based Development 3 (Mobile)\MobileDev\app\build\intermediates\merged_res\debug
-com.example.layoutactivity.app-debug-33 C:\Users\GILES\Documents\CIT-U BSCS\2 - 2nd Semester\CSIT284 - Platform-based Development 3 (Mobile)\MobileDev\app\src\debug\res
-com.example.layoutactivity.app-main-34 C:\Users\GILES\Documents\CIT-U BSCS\2 - 2nd Semester\CSIT284 - Platform-based Development 3 (Mobile)\MobileDev\app\src\main\res
+com.example.layoutactivity.app-core-ktx-1.9.0-0 C:\Users\L11X13W01\.gradle\caches\transforms-3\0119090904485be6b56960bdff55eb84\transformed\core-ktx-1.9.0\res
+com.example.layoutactivity.app-emoji2-1.2.0-1 C:\Users\L11X13W01\.gradle\caches\transforms-3\10efd1a8a1e4bccfc97bc09faae7ee2b\transformed\emoji2-1.2.0\res
+com.example.layoutactivity.app-viewpager2-1.0.0-2 C:\Users\L11X13W01\.gradle\caches\transforms-3\12cbf164b3517d4b4a2b79faefad9729\transformed\viewpager2-1.0.0\res
+com.example.layoutactivity.app-drawerlayout-1.1.1-3 C:\Users\L11X13W01\.gradle\caches\transforms-3\1e24dcedb9b6f510b266c4ec1a80a730\transformed\drawerlayout-1.1.1\res
+com.example.layoutactivity.app-emoji2-views-helper-1.2.0-4 C:\Users\L11X13W01\.gradle\caches\transforms-3\2b290026f78752244d01b8fb4ad63c07\transformed\emoji2-views-helper-1.2.0\res
+com.example.layoutactivity.app-lifecycle-viewmodel-2.6.1-5 C:\Users\L11X13W01\.gradle\caches\transforms-3\3172f0ece61a7c2cd34a5374dbc400cd\transformed\lifecycle-viewmodel-2.6.1\res
+com.example.layoutactivity.app-constraintlayout-2.1.4-6 C:\Users\L11X13W01\.gradle\caches\transforms-3\3c3f963536feb231f5c4f35c76cfd2c8\transformed\constraintlayout-2.1.4\res
+com.example.layoutactivity.app-transition-1.2.0-7 C:\Users\L11X13W01\.gradle\caches\transforms-3\3c8b238de41bca5ec2ec7dd929b5539e\transformed\transition-1.2.0\res
+com.example.layoutactivity.app-coordinatorlayout-1.1.0-8 C:\Users\L11X13W01\.gradle\caches\transforms-3\3e319c84fedca9f5beed929593cb7754\transformed\coordinatorlayout-1.1.0\res
+com.example.layoutactivity.app-startup-runtime-1.1.1-9 C:\Users\L11X13W01\.gradle\caches\transforms-3\4fc01dd1c557d85c1b6d06723ca7986b\transformed\startup-runtime-1.1.1\res
+com.example.layoutactivity.app-lifecycle-livedata-core-2.6.1-10 C:\Users\L11X13W01\.gradle\caches\transforms-3\531a53f19fb0e9fc1c14e69159af28bb\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.layoutactivity.app-recyclerview-1.1.0-11 C:\Users\L11X13W01\.gradle\caches\transforms-3\56d6b067c1c0451712ab75866a8221c3\transformed\recyclerview-1.1.0\res
+com.example.layoutactivity.app-annotation-experimental-1.3.0-12 C:\Users\L11X13W01\.gradle\caches\transforms-3\87a862933960fcec04098f9e7f0f61d2\transformed\annotation-experimental-1.3.0\res
+com.example.layoutactivity.app-lifecycle-process-2.6.1-13 C:\Users\L11X13W01\.gradle\caches\transforms-3\8e5c7cd632e04d5e01ad601765d9c329\transformed\lifecycle-process-2.6.1\res
+com.example.layoutactivity.app-activity-1.8.0-14 C:\Users\L11X13W01\.gradle\caches\transforms-3\8edc3acd8b8c4c01a4d6b49d6cfa3238\transformed\activity-1.8.0\res
+com.example.layoutactivity.app-lifecycle-livedata-2.6.1-15 C:\Users\L11X13W01\.gradle\caches\transforms-3\b72a780ccf02e2b1143b7914ca6c4272\transformed\lifecycle-livedata-2.6.1\res
+com.example.layoutactivity.app-core-runtime-2.2.0-16 C:\Users\L11X13W01\.gradle\caches\transforms-3\ba7da01123a70f2d448ef3edb8246905\transformed\core-runtime-2.2.0\res
+com.example.layoutactivity.app-material-1.11.0-17 C:\Users\L11X13W01\.gradle\caches\transforms-3\bcbb64b32ef74df1e7f539830aba798e\transformed\material-1.11.0\res
+com.example.layoutactivity.app-appcompat-resources-1.6.1-18 C:\Users\L11X13W01\.gradle\caches\transforms-3\cc4917c4a942beadce53b84fb75248e5\transformed\appcompat-resources-1.6.1\res
+com.example.layoutactivity.app-appcompat-1.6.1-19 C:\Users\L11X13W01\.gradle\caches\transforms-3\d063217e54f2732c884cdab1479d9530\transformed\appcompat-1.6.1\res
+com.example.layoutactivity.app-core-1.9.0-20 C:\Users\L11X13W01\.gradle\caches\transforms-3\d1a3c6de8e93d03ea17a50f19d580d02\transformed\core-1.9.0\res
+com.example.layoutactivity.app-lifecycle-viewmodel-savedstate-2.6.1-21 C:\Users\L11X13W01\.gradle\caches\transforms-3\d5280c51f5b1aff427d05bfc1618094f\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.example.layoutactivity.app-lifecycle-runtime-2.6.1-22 C:\Users\L11X13W01\.gradle\caches\transforms-3\e068a9929cdc48df28283c1cbfa244c7\transformed\lifecycle-runtime-2.6.1\res
+com.example.layoutactivity.app-fragment-1.3.6-23 C:\Users\L11X13W01\.gradle\caches\transforms-3\e19b52c382c18d69a7edb127ad1db1a3\transformed\fragment-1.3.6\res
+com.example.layoutactivity.app-savedstate-1.2.1-24 C:\Users\L11X13W01\.gradle\caches\transforms-3\e4f1326bb726ec13847237affc77ff1f\transformed\savedstate-1.2.1\res
+com.example.layoutactivity.app-profileinstaller-1.3.0-25 C:\Users\L11X13W01\.gradle\caches\transforms-3\fc3103e6058623dcaa35e9dbd552760d\transformed\profileinstaller-1.3.0\res
+com.example.layoutactivity.app-cardview-1.0.0-26 C:\Users\L11X13W01\.gradle\caches\transforms-3\fda85e8f455d18a498d8ef1367fb2e10\transformed\cardview-1.0.0\res
+com.example.layoutactivity.app-pngs-27 Z:\L11X13W01\MobileDevProjects\app\build\generated\res\pngs\debug
+com.example.layoutactivity.app-resValues-28 Z:\L11X13W01\MobileDevProjects\app\build\generated\res\resValues\debug
+com.example.layoutactivity.app-rs-29 Z:\L11X13W01\MobileDevProjects\app\build\generated\res\rs\debug
+com.example.layoutactivity.app-packageDebugResources-30 Z:\L11X13W01\MobileDevProjects\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.layoutactivity.app-packageDebugResources-31 Z:\L11X13W01\MobileDevProjects\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.layoutactivity.app-merged_res-32 Z:\L11X13W01\MobileDevProjects\app\build\intermediates\merged_res\debug
+com.example.layoutactivity.app-debug-33 Z:\L11X13W01\MobileDevProjects\app\src\debug\res
+com.example.layoutactivity.app-main-34 Z:\L11X13W01\MobileDevProjects\app\src\main\res

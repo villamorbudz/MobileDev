@@ -72,7 +72,8 @@
                     android:text="@string/connect3Cell_default"
                     android:textColor="#FFFFFF"
                     app:layout_constraintStart_toEndOf="@+id/cell00Btn"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell02Btn"
@@ -84,7 +85,8 @@
                     android:text="@string/connect3Cell_default"
                     android:textColor="#FFFFFF"
                     app:layout_constraintStart_toEndOf="@+id/cell01Btn"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell03Btn"
@@ -96,7 +98,8 @@
                     android:text="@string/connect3Cell_default"
                     android:textColor="#FFFFFF"
                     app:layout_constraintStart_toEndOf="@+id/cell02Btn"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell04Btn"
@@ -110,7 +113,8 @@
                     android:textColor="#FFFFFF"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/cell03Btn"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell10Btn"
@@ -137,7 +141,8 @@
                     android:text="@string/connect3Cell_default"
                     android:textColor="#FFFFFF"
                     app:layout_constraintStart_toEndOf="@+id/cell10Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell01Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell01Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell12Btn"
@@ -150,7 +155,8 @@
                     android:text="@string/connect3Cell_default"
                     android:textColor="#FFFFFF"
                     app:layout_constraintStart_toEndOf="@+id/cell11Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell02Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell02Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell13Btn"
@@ -163,7 +169,8 @@
                     android:text="@string/connect3Cell_default"
                     android:textColor="#FFFFFF"
                     app:layout_constraintStart_toEndOf="@+id/cell12Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell03Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell03Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell14Btn"
@@ -178,7 +185,8 @@
                     android:textColor="#FFFFFF"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/cell13Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell04Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell04Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell20Btn"
@@ -205,7 +213,8 @@
                     android:text="@string/connect3Cell_default"
                     android:textColor="#FFFFFF"
                     app:layout_constraintStart_toEndOf="@+id/cell20Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell11Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell11Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell22Btn"
@@ -218,7 +227,8 @@
                     android:text="@string/connect3Cell_default"
                     android:textColor="#FFFFFF"
                     app:layout_constraintStart_toEndOf="@+id/cell21Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell12Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell12Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell23Btn"
@@ -231,7 +241,8 @@
                     android:text="@string/connect3Cell_default"
                     android:textColor="#FFFFFF"
                     app:layout_constraintStart_toEndOf="@+id/cell22Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell13Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell13Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell24Btn"
@@ -246,7 +257,8 @@
                     android:textColor="#FFFFFF"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/cell23Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell14Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell14Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell30Btn"
@@ -273,7 +285,8 @@
                     android:text="@string/connect3Cell_default"
                     android:textColor="#FFFFFF"
                     app:layout_constraintStart_toEndOf="@+id/cell30Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell21Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell21Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell32Btn"
@@ -286,7 +299,8 @@
                     android:text="@string/connect3Cell_default"
                     android:textColor="#FFFFFF"
                     app:layout_constraintStart_toEndOf="@+id/cell31Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell22Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell22Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell33Btn"
@@ -299,7 +313,8 @@
                     android:text="@string/connect3Cell_default"
                     android:textColor="#FFFFFF"
                     app:layout_constraintStart_toEndOf="@+id/cell32Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell23Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell23Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell34Btn"
@@ -314,7 +329,8 @@
                     android:textColor="#FFFFFF"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/cell33Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell24Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell24Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell40Btn"
@@ -345,7 +361,8 @@
                     android:textColor="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/cell40Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell31Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell31Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell42Btn"
@@ -360,7 +377,8 @@
                     android:textColor="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/cell41Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell32Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell32Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton"/>
 
                 <Button
                     android:id="@+id/cell43Btn"
@@ -375,7 +393,8 @@
                     android:textColor="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/cell42Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell33Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell33Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton" />
 
                 <Button
                     android:id="@+id/cell44Btn"
@@ -392,7 +411,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/cell43Btn"
-                    app:layout_constraintTop_toBottomOf="@+id/cell34Btn" />
+                    app:layout_constraintTop_toBottomOf="@+id/cell34Btn"
+                    app:shapeAppearanceOverlay="@style/circleButton" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <Button
