@@ -27,50 +27,70 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:id="@+id/buttonsActivityBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="128dp"
-                android:layout_marginTop="50dp"
-                android:text="Buttons Activity"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/layoutActivityBtn" />
-
-            <ScrollView
-                android:id="@+id/mainScrollView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-            <Button
-                android:id="@+id/connect3Btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="148dp"
-                android:layout_marginTop="50dp"
-                android:text="Connect 3"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/calculatorActivityBtn" />
-
-            <Button
                 android:id="@+id/layoutActivityBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="132dp"
-                android:layout_marginTop="50dp"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="56dp"
                 android:text="Layout Activity"
                 android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
+                android:id="@+id/buttonsActivityBtn"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="56dp"
+                android:text="Buttons Activity"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layoutActivityBtn" />
+
+            <Button
                 android:id="@+id/calculatorActivityBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="148dp"
-                android:layout_marginTop="50dp"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="56dp"
                 android:text="Calculator"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/buttonsActivityBtn" />
+
+            <Button
+                android:id="@+id/connect3Btn"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="56dp"
+                android:text="Connect 3"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/calculatorActivityBtn" />
+
+            <Button
+                android:id="@+id/Match3Btn"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="56dp"
+                android:text="Match 3"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/connect3Btn" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

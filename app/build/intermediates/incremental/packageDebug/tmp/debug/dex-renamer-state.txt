@@ -1,7 +1,7 @@
-#Sun Apr 14 18:01:56 SGT 2024
-base.0=C\:\\Users\\BG\\StudioProjects\\MobileDev\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\BG\\StudioProjects\\MobileDev\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\BG\\StudioProjects\\MobileDev\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+#Tue Apr 16 03:55:10 PST 2024
+base.0=C\:\\Users\\GILES\\Documents\\CIT-U BSCS\\2 - 2nd Semester\\CSIT284 - Platform-based Development 3 (Mobile)\\MobileDev\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\GILES\\Documents\\CIT-U BSCS\\2 - 2nd Semester\\CSIT284 - Platform-based Development 3 (Mobile)\\MobileDev\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\GILES\\Documents\\CIT-U BSCS\\2 - 2nd Semester\\CSIT284 - Platform-based Development 3 (Mobile)\\MobileDev\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=9/classes.dex

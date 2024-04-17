@@ -4,7 +4,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.res.Configuration;
+import android.graphics.Color;
 import android.graphics.Typeface;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -223,7 +225,7 @@ public class Connect3 extends AppCompatActivity {
                     gameInfo.setText("PLAYER 2 WINS!");
                     break;
                 case 3:
-                    gameInfo.setTextColor(0xFFFFFFFF);
+                    gameInfo.setTextColor(0xFF3F3F3F);
                     gameInfo.setText("IT'S A DRAW!");
                     break;
             }

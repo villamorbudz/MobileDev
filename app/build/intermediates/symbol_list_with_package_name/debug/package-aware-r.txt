@@ -3091,6 +3091,7 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id META
+id Match3Btn
 id NO_DEBUG
 id SHIFT
 id SHOW_ALL
@@ -3244,6 +3245,7 @@ id confirm_button
 id connect3Btn
 id constraint
 id constraintLayout
+id constraintLayout2
 id container
 id content
 id contentPanel
@@ -3368,6 +3370,7 @@ id line1
 id line3
 id linear
 id linearLayout
+id linearLayout3
 id listMode
 id list_item
 id m3_side_sheet
@@ -3825,6 +3828,7 @@ layout activity_button
 layout activity_calculator
 layout activity_connect3
 layout activity_main
+layout activity_match3
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

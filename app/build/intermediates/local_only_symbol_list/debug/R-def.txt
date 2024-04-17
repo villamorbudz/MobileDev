@@ -20,6 +20,7 @@ drawable instagram_moreoptions_icon
 drawable instagram_share_icon
 drawable instagramtextlogo
 drawable the_weeknd_tour1
+id Match3Btn
 id additionBtn
 id appHeader
 id buttonsActivityBtn
@@ -55,6 +56,7 @@ id clearBtn
 id closeBtn
 id connect3Btn
 id constraintLayout
+id constraintLayout2
 id decimalBtn
 id disappearBtn
 id divisionBtn
@@ -67,6 +69,7 @@ id instagram_notificationsBtn
 id instagram_textlogo
 id layoutActivityBtn
 id linearLayout
+id linearLayout3
 id mainLayout
 id mainPage
 id mainScrollView
@@ -82,6 +85,7 @@ id num7Btn
 id num8Btn
 id num9Btn
 id opDisplayTextView
+id parent
 id parenthesesBtn
 id percentageBtn
 id post1
@@ -152,6 +156,7 @@ layout activity_button
 layout activity_calculator
 layout activity_connect3
 layout activity_main
+layout activity_match3
 layout layout_activity
 mipmap ic_launcher
 mipmap ic_launcher_round
