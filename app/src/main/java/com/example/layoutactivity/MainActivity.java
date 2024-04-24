@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.passingIntentsActivityBtn).setOnClickListener(view -> {
             Intent openActivity = new Intent(MainActivity.this, PassingIntentsExercise.class);
+            startActivity(openActivity);
+        });
+
+        findViewById(R.id.menusActivityBtn).setOnClickListener(view -> {
+            Intent openActivity = new Intent(MainActivity.this, MenuExercise.class);
             startActivity(openActivity);
         });
     }

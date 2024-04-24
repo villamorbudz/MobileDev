@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mItemChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Change">
+        <menu >
+            <item
+                android:id="@+id/mItemChangeBG"
+                android:title="Change BG" />
+            <item
+                android:id="@+id/mItemChangeButtonColor"
+                android:title="Change Button Color" />
+            <item
+                android:id="@+id/mItemChangeTextColor"
+                android:title="Change Color" />
+            <item
+                android:id="@+id/mItemChangeText"
+                android:title="Change Text" />
+            <item
+                android:id="@+id/mItemChangeOpacity"
+                android:title="Change Opacity" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mItemReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Reset" />
+    <item
+        android:id="@+id/mItemExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Exit" />
+</menu>

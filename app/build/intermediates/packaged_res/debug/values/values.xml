@@ -2,19 +2,27 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
     <string name="app_name">InstagramActivity</string>
     <string name="connect3Cell_default">.</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="next">Next</string>
     <string name="post2_caption">this is my alter ego</string>
     <string name="post3_caption">philippine hair lines</string>
+    <string name="previous">Previous</string>
     <string name="sample_caption">lorem ipsum dolor sit amet</string>
     <string name="sample_date">69 minutes ago</string>
     <string name="sample_likeCount">1,234 likes</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_menu_exercise">MenuExercise</string>
     <string name="user2_username">theweaknd</string>
     <string name="user3_username">jakelng</string>
     <string name="user4_username">anitamaxwynn</string>
     <string name="user5_username">bossamo</string>
     <string name="user_username">Your Story</string>
-    <style name="Base.Theme.InstagramActivity" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.InstagramActivity" parent="Theme.Material3.DayNight">
         
         
     </style>
